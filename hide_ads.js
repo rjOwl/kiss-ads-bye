@@ -11,7 +11,8 @@ if(window.location.href.includes(url)){
 		var element = document.getElementById(elementId); 
 		element.parentNode.removeChild(element); 
 	} 
-	var ids=["divAds", "adsIfrme1", "adsIfrme3", "divAds2", "divAds", "center", "adsIfrme6", "adsIfrme7", "divFloatLeft"] 
+        var ids=["divAds", "adsIfrme1", "adsIfrme3", "divAds2", "divAds", "center", "adsIfrme6", "adsIfrme7", "divFloatLeft", "a2mdn_1034_r", "a2mdn_1034_l"] 
+	    
 	idsLen = ids.length; 
 	for (i = 0; i < idsLen; i++) { 
 		try{ 
